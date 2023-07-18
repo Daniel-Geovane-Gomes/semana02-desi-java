@@ -30,6 +30,7 @@ public class Desijava {
             System.out.println("Suas informações não serão compartilhadas");
         } else if(compartilhar == JOptionPane.CANCEL_OPTION){
             System.out.println("Cadastro cancelado");
+            System.exit(0);
         }
         JOptionPane.showMessageDialog(null, "...");
         JOptionPane.showMessageDialog(null, "Você sabe, você não acredita em si mesmo", "Falhou como sempre", JOptionPane.ERROR_MESSAGE);
