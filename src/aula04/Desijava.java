@@ -7,6 +7,7 @@ package aula04;
 
 import javax.swing.JOptionPane;
 import javax.swing.JPopupMenu;
+import views.PrineiraInterface;
 
 /**
  *
@@ -14,7 +15,8 @@ import javax.swing.JPopupMenu;
  */
 public class Desijava {
     public static void main(String[] agrs) {
-    metodoJoption();
+    
+        new PrineiraInterface();
 }
     public static void metodoJoption(){
         
