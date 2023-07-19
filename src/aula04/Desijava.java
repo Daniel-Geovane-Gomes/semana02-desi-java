@@ -8,6 +8,8 @@ package aula04;
 import javax.swing.JOptionPane;
 import javax.swing.JPopupMenu;
 import views.PrineiraInterface;
+import views.SegundaInterface;
+import views.TerceiraInterface;
 
 /**
  *
@@ -16,7 +18,8 @@ import views.PrineiraInterface;
 public class Desijava {
     public static void main(String[] agrs) {
     
-        new PrineiraInterface();
+        new TerceiraInterface().setVisible(true);
+        //new PrineiraInterface();
 }
     public static void metodoJoption(){
         
@@ -38,5 +41,5 @@ public class Desijava {
         JOptionPane.showMessageDialog(null, "Você sabe, você não acredita em si mesmo", "Falhou como sempre", JOptionPane.ERROR_MESSAGE);
     }
     
-    public static void metodoScanner() {...31 linhas}
+    //public static void metodoScanner() {...31 linhas}
 }
