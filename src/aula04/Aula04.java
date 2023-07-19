@@ -1,4 +1,4 @@
-package aula04;
+/**package aula04;
 
 import java.util.Scanner;
 
@@ -30,4 +30,4 @@ public class Aula04 {
         leitor.useDelimiter(",");
     }
     
-}
+}*/
